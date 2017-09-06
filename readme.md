@@ -53,9 +53,12 @@ When the user clicks the button on the DOM a request is sent to a GET route the 
 
 Checklist:
 ---
-- create GET route in server.js
+- create GET route in server.js (SEnd out to client sort of)
+
 - handle click event in client.js
 - create $ajax request in click event that makes a GET request to the new route
+These 2 steps will have client request info from server
+
 - test $ajax request by having the route console.log a message when the GET route is hit
 - have the route send a response
 - handle the response in client.js by logging it out

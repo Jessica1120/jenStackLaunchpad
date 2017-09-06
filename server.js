@@ -18,3 +18,8 @@ app.get( '/', function( req, res ){
   res.sendFile( path.resolve( 'views/index.html' ) );
 }); // end base url
 
+app.get('/getRoute', function(req,res) {
+  console.log('/getroute here!');
+  res.send('Yup, I got it Ajax.');
+})
+
